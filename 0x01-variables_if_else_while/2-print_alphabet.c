@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - print the alphabet starting at a
  *
  * Description: using the main function
