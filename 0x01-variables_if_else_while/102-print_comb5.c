@@ -6,6 +6,7 @@
  *
  * Descrption: using the main funtion
  * this program prints"possible combinations of two two-digit
+ * 
  */
 int main(void)
 {
@@ -23,6 +24,9 @@ putchar(',');
 putchar(' ');
 if (num1 == 98 && num2 == 99)
 {
+putchar(',');
+putchar(' ');
+}
 }
 }
 putchar('\n');
