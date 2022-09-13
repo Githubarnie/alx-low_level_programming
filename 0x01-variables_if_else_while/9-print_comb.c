@@ -4,15 +4,15 @@
  *
  * Description: using the main funtion
  * this program prints "Numbers follwed by , and space
- * Return: 0 
+ * Return: 0
  */
 int main(void)
 {
 int num;
-for (num = 48; num <= 57; num++)
+for (num = '0'; num <= '9'; num++)
 {
 putchar(num);
-if (num != 57)
+if (num != '9')
 {
 putchar(',');
 putchar(' ');
