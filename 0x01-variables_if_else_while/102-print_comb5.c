@@ -21,7 +21,7 @@ putchar((num1 % 10) + 48);
 putchar(' ');
 putchar((num2 / 10) + 48);
 putchar((num2 % 10) + 48);
-if (num1 != 98 || num2 != 98)
+if (num1 == 98 && num2 == 99)
 {
 putchar(',');
 putchar(' ');
@@ -32,5 +32,5 @@ putchar(' ');
 ++num1;
 }
 putchar('\n');
-return 0;
+return (0);
 }
