@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry point
  *
@@ -8,28 +9,23 @@
  */
 int main(void)
 {
-int num1 = 0, num2;
-while (num1 <= 99)
+int num1, num2;
+for (num1 = 0; num1 <= 98; num1++)
 {
-num2 = num1;
-while (num2 <= 99)
+for (num2 = num1 + 1; num2 <= 99; num2++)
 {
-if (num2 != num1)
-{
-putchar((num1 / 10) + 48);
-putchar((num1 % 10) + 48);
+putchar((num1 / 10) + '0');
+putchar((num1 % 10) + '0');
 putchar(' ');
-putchar((num2 / 10) + 48);
-putchar((num2 % 10) + 48);
+putchar((num2 / 10) + '0');
+putchar((num2 % 10) + '0');
 if (num1 == 98 && num2 == 99)
 {
+continue;
 putchar(',');
 putchar(' ');
 }
 }
-++num2;
-}
-++num1;
 }
 putchar('\n');
 return (0);
