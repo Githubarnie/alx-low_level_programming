@@ -3,7 +3,7 @@
  * main - prints if the number is positive, zero, negative
  *
  * Description: using the main function
- * this program prints "The numbers until 0-9 combine with letter 
+ * this program prints "The number combine with letter
  * Return: 0
  */
 int main(void)
