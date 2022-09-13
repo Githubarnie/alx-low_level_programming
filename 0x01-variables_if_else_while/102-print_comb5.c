@@ -16,7 +16,6 @@ while (num2 <= 99)
 {
 if (num2 != num1)
 {
-/** the %-sign to check if we have any reminder */
 putchar((num1 / 10) + 48);
 putchar((num1 % 10) + 48);
 putchar(' ');
