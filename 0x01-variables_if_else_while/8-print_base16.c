@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints  if the number is positive, zero, negative
+ * main - prints if the number is positive, zero, negative
  *
  * Description: using the main function
  * this program prints "The numbers until 0-9 combine with letter 
