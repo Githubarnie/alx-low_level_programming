@@ -1,25 +1,3 @@
-Task 12.txt
-Who has access
-A
-System properties
-Type
-Text
-Size
-677 bytes
-Storage used
-677 bytes
-Location
-0x02. C - Functions, nested loops
-Owner
-Antony Bahati
-Modified
-14:26 by Antony Bahati
-Opened
-22:39 by me
-Created
-14:27
-No description
-Viewers can download
 #include "main.h"
 /**
 *print_times_table - prints the  times table with
